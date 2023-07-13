@@ -5,7 +5,7 @@ import {AiOutlineGithub} from "react-icons/ai"
 import {AiOutlineMail} from "react-icons/ai"
 
 //Style
-const StyleSide = ["min-h-full bg-gray-400 w-72 lg:top-0 lg:left-0 top-14 lg:fixed left-[-300px] p-10 fixed duration-700","min-h-full bg-gray-400 w-72 lg:top-0 top-5 lg:fixed left-0 p-10 fixed duration-700"]
+const StyleSide = ["min-h-full bg-gray-400 w-72 lg:top-0 lg:left-0 top-14 lg:fixed left-[-300px] p-10 fixed duration-700","min-h-full bg-gray-400 w-72 lg:top-0 top-36 lg:fixed left-0 p-10 fixed duration-700"]
 const StyleLink = ['tran px-7 py-2 bg-gray-600 hover:bg-gray-500 active:bg-black active:text-white rounded-t','px-7 py-2 hover:bg-gray-500 active:bg-black active:text-white rounded-t']
 export default function Sidebar({click,setClick,side}) {
   return (
